@@ -1,0 +1,6 @@
+{ 
+  "convert_mode" : "chpt2pb",
+  "tf_chpt_path" : "./inference_converter/weights/ckpt/model",
+  "tf_pb_path" : "./inference_converter/weights/pb/model.pb",
+  "node_outputs_name" : "predictions_1/concat"
+}

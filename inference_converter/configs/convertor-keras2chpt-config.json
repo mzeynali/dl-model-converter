@@ -1,0 +1,6 @@
+{ 
+  "convert_mode" : "keras2chpt",
+  "h5_path_in" : "./inference_converter/weights/h5/ssd_mobile_v1_300.h5",
+  "h5_path_out" : "./inference_converter/weights/h5/model.h5",
+  "tf_chpt_path" : "./inference_converter/weights/ckpt/model"
+}

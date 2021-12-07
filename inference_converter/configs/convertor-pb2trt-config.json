@@ -1,0 +1,10 @@
+{ 
+  "convert_mode" : "pb2trt",
+  "tf_pb_path" : "./inference_converter/weights/pb/model.pb",
+  "trt_pb_path" : "./inference_converter/weights/trt/model_trt.pb",
+  "node_outputs_name" : "predictions_1/concat",
+  "max_batch_size" : 12,
+  "max_workspace_size_bytes" : 1e9,
+  "minimum_segment_size" : 3,
+  "precision_mode" : "FP16" 
+}
